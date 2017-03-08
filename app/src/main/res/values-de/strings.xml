@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Question Game</string>
+    <string name="example_name_header"></string>
+    <string name="string_player_name_header">Name des Spielers:</string>
+    <string name="string_play">SPIEL</string>
+    <string name="string_err_dialog">Oops! Es scheint als sei ein Fehler aufgetreten</string>
+    <string name="hint_enter_a_name">Bitte wählen Sie einen Namen</string>
+    <string name="string_question">Frage</string>
+    <string name="string_submit">EINGEBEN</string>
+    <string name="string_save">speichern</string>
+    <string name="string_save_score">Spielstand speichern?</string>
+    <string name="string_cancel">löschen</string>
+</resources>

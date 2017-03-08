@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Question Game</string>
+
+    <!-- Visualization strings -->
+    <string name="example_paragraph">This is a text paragraph only
+    to visualize the text on the text views
+    since i will programmatically generate
+    the texts.</string>
+    <string name="example_choice_A">A. Example Answer no. 1</string>
+    <string name="example_choice_B">B. Example Answer no. 2</string>
+    <string name="example_choice_C">C. Example Answer no. 3</string>
+    <string name="example_choice_D">D. Example Answer no. 3</string>
+    <string name="example_percentage">100%</string>
+    <string name="example_score">0</string>
+
+    <!-- Standard strings -->
+    <string name="string_question">Question</string>
+    <string name="string_play">PLAY</string>
+    <string name="string_player_name_header">Player Name:</string>
+    <string name="hint_enter_a_name">Please give a name</string>
+    <string name="string_save_score">Save your score</string>
+    <string name="string_save">SAVE</string>
+    <string name="string_cancel">CANCEL</string>
+    <string name="string_scores">Scores</string>
+    <string name="string_about">About</string>
+    <string name="string_developer">Developer:</string>
+    <string name="string_translation">Translation:</string>
+    <!-- Non translatable -->
+    <string name="string_ok">OK</string>
+    <string name="string_points">PTS</string>
+    <string name="string_game_over">Game Over</string>
+    <string name="string_hp">HP</string>
+    <string name="about_dialog_title">Question Game\n for Android</string>
+    <string name="email">profexxus@hotmail.com</string>
+    <string name="name_stamatis_stiliatis">Stamatis Stiliatis</string>
+    <string name="name_johanna_reinhardt">Johanna Reinhardt</string>
+
+    <!-- Error Strings -->
+    <string name="string_err_dialog">Oops! Seems there was an error</string>
+    <string name="example_name_header">Player Name</string>
+    <string name="string_submit">SUBMIT</string>
+
+</resources>

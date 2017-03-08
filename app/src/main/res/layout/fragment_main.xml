@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.MainFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/questiongame_logo"
+        android:padding="30dp"/>
+    <TextView
+        android:id="@+id/text_header_name"
+        style="@style/header2_style"
+        android:text="@string/string_player_name_header" />
+
+    <EditText
+        style="@style/edit_text_style"
+        android:hint="@string/hint_enter_a_name"
+        android:id="@+id/edit_text_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/bottom_button_style"
+            android:text="@string/string_play"
+            android:id="@+id/btn_play"/>
+    </RelativeLayout>
+</LinearLayout>

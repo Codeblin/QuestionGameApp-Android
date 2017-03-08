@@ -1,0 +1,200 @@
+[
+	{
+		"Question":"Which German Count invented the zeppelin?",
+		"Answer":["Count (Von) Zeppelin","Vorlsant Fint","Johann Wolfgang von Goethe","Oskar von Hindenburg"],
+		"CorrectAnswer":0,
+		"Played":false
+	},
+	{
+		"Question":"Who was the first president of the USA?",
+		"Answer":["George Bush","Bill Clinton","George Washington","Abraham Lincoln"],
+		"CorrectAnswer":2,
+		"Played":false
+	},
+  {
+    "Question":"Who was the second president of the United States?",
+    "Answer":["Millard Fillmore","Rutherford B. Hayes","William McKinley","John Adams"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"How many women did Henry VIII have?",
+    "Answer":["6","8","1","0"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"What was the name of Napoleon s first wife?",
+    "Answer":["Josephine","Maria","Angellica","Elizabeth"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"Which city became capital of West-Germany in 1949?",
+    "Answer":["Berlin","Dortmund","Essen","Bonn"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"Which German war criminal was for 21 years the only inmate of Spandau complex?",
+    "Answer":["Adolf Hitler","Rudolf Hess","Olaf Hindenburg","Vorlsant Sun"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"What was the former name of New York?",
+    "Answer":["New London","New Rome","New Amsterdam","New York"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"Which French king was called the Sun King?",
+    "Answer":["Louis VII the Young","Carloman I","Charles II","Louis XIV"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"Which city was the capital of Australia from 1901 to 1927?",
+    "Answer":["Melbourne","Gympie","Maryborough","Hamilton"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"What is the capital of Turkey?",
+    "Answer":["Ankara","Malatya","Kahramanmaraş","İzmit"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"What is the national animal of China?",
+    "Answer":["Mogu Turtle","Red Fox","Giant panda","Koi Fish"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"What is a very cold part of Russia?",
+    "Answer":["Moscow","St. Petersburg","Tomsk","Siberia"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"How many continents are there?",
+    "Answer":["6","7","9","8"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"Which two seas are joined by the Suez Canal?",
+    "Answer":["The Mediterranean Sea and the Red Seas","The Mediterranean and Atlantic","Suez Sea and Atlantic","Pacific and Atlantic"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"Which country did once have the name Rhodesia?",
+    "Answer":["Greece","Zimbabwe","India","Madagascar"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"Which European river does flow through six different countries?",
+    "Answer":["Volga","Rhine","Bosna","Donau"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"What do the Japanese people call their own country?",
+    "Answer":["Kawai","Nippon","Kissama","Itachi"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"On which Italian island is Palermo?",
+    "Answer":["Palmaria","Gaiola","Sicily","Tavolara"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"How many heads of presidents are carved into Mount Rushmore?",
+    "Answer":["5","3","4","6"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"In which country happened the Orange Revolution between 2004-2005?",
+    "Answer":["Ukraine","Russia","Greece","Spain"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"What is the most spoken language in Belgium?",
+    "Answer":["German","Dutch","French","Latin"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"In what year was the Berlin wall built?",
+    "Answer":["1963","1959","1955","1961"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"In which state was George W Bush governor before becoming President of the United States?",
+    "Answer":["Oklahoma","California","Texas","Ohio"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"In which state was Bill Clinton governor before becoming President of the United States?",
+    "Answer":["Texas","Arkansas","Los Angeles","Kansas"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"What is the defoliant called that was used in Vietnam?",
+    "Answer":["Agent Orange","Agent Red","Orange Client","Private Sint"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"Which country had a Prime Minister and President who were twin brothers?",
+    "Answer":["Bulrgaria","Serbia","Esthonia","Poland"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"What is the first book of the Old Testament?",
+    "Answer":["Apocalypse","The 10 Orders","Genesis","The Birth"],
+    "CorrectAnswer":2,
+    "Played":false
+  },
+  {
+    "Question":"Who did paint the famous painting Guernica?",
+    "Answer":["Picasso","Van Gogh","Juan de Barroeta","Salvador Dali"],
+    "CorrectAnswer":0,
+    "Played":false
+  },
+  {
+    "Question":"In which city did Romeo and Julia live?",
+    "Answer":["London","Rome","Paris","Verona"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"In which English town did Adolf Hitler study art?",
+    "Answer":["Manchester","Oxford","London","Liverpool"],
+    "CorrectAnswer":3,
+    "Played":false
+  },
+  {
+    "Question":"Who is the inventor of photography?",
+    "Answer":["Nicéphore Niépce","Daguerre","Alfred Stieglitz","Edward Steichen"],
+    "CorrectAnswer":1,
+    "Played":false
+  },
+  {
+    "Question":"Which Italian artist painted the Birth of Venus?",
+    "Answer":["Botticelli","Gentile da Fabriano","Leonardo da Vinci","Napoleone Parisani"],
+    "CorrectAnswer":0,
+    "Played":false
+  }
+]

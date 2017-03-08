@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Question Game</string>
+    <string name="hint_enter_a_name">Παρακαλώ δώστε ένα όνομα</string>
+    <string name="string_err_dialog">Ωχ! Παρουσιάστηκε κάποιο σφάλμα</string>
+    <string name="string_play">ΠΑΙΞΕ</string>
+    <string name="string_player_name_header">Όνομα παίχτη:</string>
+    <string name="string_submit">ΥΠΟΒΟΛΗ</string>
+    <string name="string_question">Ερώτηση</string>
+    <string name="string_save">Αποθήκευση</string>
+    <string name="string_save_score">Αποθήκευση σκορ</string>
+    <string name="string_cancel">Άκυρο</string>
+</resources>

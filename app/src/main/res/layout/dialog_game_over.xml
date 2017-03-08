@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_over_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/buttonColor"
+    tools:context="com.example.stamatis.questiongameapp.GameOverDialog">
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/string_game_over"
+        android:background="@color/colorPrimary"
+        style="@style/header2_style"/>
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/string_save_score"
+        style="@style/header2_style"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/game_over_button_style"
+            android:id="@+id/btn_save"
+            android:text="@string/string_save"/>
+        <Button
+            style="@style/game_over_button_style"
+            android:id="@+id/btn_cancel"
+            android:text="@string/string_cancel"/>
+    </LinearLayout>
+</LinearLayout>
