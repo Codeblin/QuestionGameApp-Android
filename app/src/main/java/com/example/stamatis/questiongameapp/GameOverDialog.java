@@ -28,6 +28,7 @@ public class GameOverDialog  extends Dialog implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.dialog_game_over);
         btnSave = (Button) findViewById(R.id.btn_save);

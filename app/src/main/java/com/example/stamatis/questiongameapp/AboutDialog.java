@@ -22,6 +22,7 @@ public class AboutDialog extends Dialog implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_about);
+        
         btnOk = (Button) findViewById(R.id.btn_ok);
         btnOk.setOnClickListener(this);
     }

@@ -47,7 +47,7 @@ public class ScoreFragment extends ListFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        updateDate();
+        updateScore();
     }
 
     @Override
@@ -59,11 +59,11 @@ public class ScoreFragment extends ListFragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         DataUtil.deleteAllScores(getActivity());
-        updateDate();
+        updateScore();
         return true;
     }
 
-    public void updateDate(){
+    public void updateScore(){
         scores = new ArrayList<>();
         scores = DataUtil.getScore(getActivity());
         adapter = new ArrayAdapter<>(getActivity(),

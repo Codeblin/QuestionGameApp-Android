@@ -37,6 +37,7 @@ public class GameActivity extends AppCompatActivity {
     private int playerHealth = 100;
     private List<Questions> listQuestions = new ArrayList<>();
     private Questions currentQuestion;
+    //Views
     private ProgressBar healthBar;
     private TextView txtPlayerScore;
     private TextView txtPercentage;
@@ -85,13 +86,11 @@ public class GameActivity extends AppCompatActivity {
             rdBtnAns2.setText(currentQuestion.getAnswers(1));
             rdBtnAns3.setText(currentQuestion.getAnswers(2));
             rdBtnAns4.setText(currentQuestion.getAnswers(3));
-            //Log.d("Debug Info Log", currentQuestion.getQuestion());
         }else{
             gameOver();
             txtQuestion.setText("");
             radioGroup.setVisibility(View.GONE);
             btnSubmit.setEnabled(false);
-            //Log.d("Debug Info Log", "No more questions");
         }
     }
 
@@ -166,7 +165,7 @@ public class GameActivity extends AppCompatActivity {
         int idx = radioGroup.indexOfChild(checkedRadioButton);
         if (idx == currentQuestion.getCorrectAnswer()){
             // Right
-            Log.i("Debug Info Log", "Correct Answer block entered.");
+            Log.d("Debug Info Log", "Correct Answer block entered.");
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 checkedRadioButton.setTextColor(getResources().getColor(R.color.color_right_answer, getTheme()));
             }else{
@@ -176,13 +175,13 @@ public class GameActivity extends AppCompatActivity {
             addPoints();
         }else{
             // Wrong
-            Log.i("Debug Info Log", "Wrong answer block entered.");
+            Log.d("Debug Info Log", "Wrong answer block entered.");
             for (int i = 0; i < radioGroup.getChildCount(); i++){
-                Log.i("Debug Info Log", "Iterating to find the right radio button...");
+                Log.d("Debug Info Log", "Iterating to find the right radio button...");
                 RadioButton radioButton = (RadioButton)radioGroup.getChildAt(i);
                 int index = radioGroup.indexOfChild(radioButton);
                 if (index == currentQuestion.getCorrectAnswer()){
-                    Log.i("Debug Info Log", "Found it!: " + currentQuestion.getQuestion());
+                    Log.d("Debug Info Log", "Found it!: " + currentQuestion.getQuestion());
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                         radioButton.setTextColor(getResources().getColor(R.color.color_right_answer, getTheme()));
                     }else{

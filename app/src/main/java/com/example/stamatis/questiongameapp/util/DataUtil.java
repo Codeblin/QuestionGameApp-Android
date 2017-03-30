@@ -23,11 +23,13 @@ import java.util.Map;
 
 /**
  * Created by Stamatis Stiliatis(ExXoDuSs) on 4/3/2017.
+ * 
+ *  Class Uses: Reading JSON, save, retrieve and delete Score
  */
 
 public class DataUtil{
 
-
+    public DataUtil(){}
 
     public static boolean deserializeQuestions(List<Questions> listQuestions, String jsonString) {
         try{
